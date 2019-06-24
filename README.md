@@ -1,30 +1,27 @@
 # Curso de Aplicações Modernas com Microserviços - code.education
 ### Módulo - Devops/Docker
-
-
+  
+  
 **Segundo Desafio:**
-
+  
 Construir a menor imagem Hello World possível com GoLang e Docker.
-
-
+  
+  
 ### Instruções:
-
+  
 *Baixe a imagem*
-
-docker pull rogeriosims/codeeducation:latest
-
-
+  
+> docker pull rogeriosims/codeeducation:latest
+  
+  
 *Execute a imagem*
+  
+> docker run rogeriosims/codeeducation
+  
+*Os detalhes de compilação estão no Dockerfile*
 
-docker run rogeriosims/codeeducation
-
-Os detalhes de compilação estão no Dockerfile
-
-
-
-**Esta imagem possui 1.41MB**
-
-
+**Esta imagem possui 1.41MB**  
+  
 Link da imagem no Docker Hub
 https://hub.docker.com/r/rogeriosims/codeeducation
 
